@@ -1,0 +1,49 @@
+body {
+	background: linear-gradient(-45deg, #D6EEF4, #AEDCE8, #135263, #11345E);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+div{
+	color:white;
+	text-align:center;
+}
+span{
+	color:white;
+	text-align:left;
+}
+.links{
+	color:blue;
+	font-weight:bold;
+	target:_blank;
+}
+
+h4{
+	font-size:25px;
+	text-align:center;
+	font-weight:bold;
+	font-style:italic;
+	border: 2px strong yellow;
+}
+ .pictutes{
+	 width:250px;
+	 border-radius: 8px;
+
+ }
+ body {
+	background: linear-gradient(-45deg, #D6EEF4, #AEDCE8, #135263, #11345E);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
